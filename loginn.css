@@ -1,0 +1,72 @@
+body{
+    padding: 0px;
+    background-image: url('lb.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+body{
+    padding: 0px;
+    background-image: url('lb.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+span {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 3em;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+    background-size: 100% 10px;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+     transition: background-size .7s, background-position .5s ease-in-out;
+     width: 38%;
+  }
+  
+  span:hover {
+    background-size: 100% 100%;
+    background-position: 0% 100%;
+    transition: background-position .7s, background-size .5s ease-in-out;
+  }
+
+.title{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+
+.container{
+    max-width: 600px;
+    margin: auto;
+    padding: 50px;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 229px 0px;
+}
+
+.form-group{
+    margin-bottom: 30px;
+
+}
+
+.form-btn input{
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.form-btn1 input{
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    
+}
